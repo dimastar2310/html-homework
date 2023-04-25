@@ -1,0 +1,45 @@
+* {
+  margin:0px;
+  padding:0px;
+  font-family: sans-serif;
+}
+
+body {
+  margin :10px;
+  border :10px;
+  padding: 10px;
+  background-color: wheat;
+}
+body > div {
+  margin: 10px;
+  background-color: #d8d8d8;
+  border-radius: 30px;
+}
+body > div >div {
+  height:auto;
+  width: auto;
+  margin :30px;
+  border-radius: 30px;
+
+   
+}
+body > div >div > img {
+  height:300px;
+  width: 400px;
+  margin :20px;
+  border-radius: 30px;
+
+   
+}
+
+body > div >div > div > h2 {
+  display: inline-block;
+  width: 40%;
+  height: 30%;
+  border: 1px black solid;
+  background: aliceblue;   
+  vertical-align:top; /* <---- this */
+  
+  
+  
+}
