@@ -22,3 +22,8 @@
  - background color: `#d8d8d8`;
  - border color: `#808080`;
  - link color: `#4f3d9b`;
+ 
+ 
+ my result :
+ 
+ ![alt text](https://github.com/dimastar2310/html-homework/blob/master/html-homework/css.jpg "Result after changes")
