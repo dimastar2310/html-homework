@@ -1,0 +1,176 @@
+* {
+  margin:0px;
+  padding:0px;
+  font-family: sans-serif;
+}
+body{
+  background-color: wheat;
+  /* border: 1px black; */
+  position: relative;
+}
+
+
+
+ body > div {
+  background-color: blue;
+  position: relative;
+  width: 1400px;
+  height: 700px;
+}
+
+.card-container{
+  width: 900px;
+  height: 600px;
+  background-color:#d8d8d8;
+  position:relative;
+  top:10px;
+  left: 30px;
+  border-radius: 10px;
+  border: 3px solid orange;
+  
+}
+
+.card-image {
+
+  display: inline;
+  float: left;
+  position: relative;
+}
+
+.card-image > img {
+  position:relative;
+  display: inline;
+  height: 400px;
+  width: 500px;
+  top :30px;
+  left: 30px;
+  border-radius: 20px;
+  
+   
+}
+.card-content{
+  position: relative;
+  left: 50px;
+  top:8px;
+
+}
+ p#content-block {
+  width: 220px;
+  position: absolute;
+  left:500px;
+  top:50px;
+  /* display: inline;
+  margin:0; */
+ }
+  
+ p#content-block span {
+  display: inline;
+  font-weight: bold;
+
+ }
+
+
+
+.card-links {
+  position: absolute;
+  display: inline;
+  top: 180px;
+}
+
+.card-links > a {
+  text-decoration: none;
+  color:brown;
+}
+
+.tags {
+  position: absolute;
+  top : 240px;
+  left : 500px;
+  display: block;
+
+}
+ .tags li:nth-child(1),.tags li:nth-child(2),.tags li:nth-child(3){
+  display:inline-block;
+  padding: 5px;
+  border: 2px solid orange;
+  background-color: darkgreen;
+  color: white;
+
+ }
+ .tags li:nth-child(4),.tags li:nth-child(5){
+  position:relative;
+  display: inline;
+  top:50px;
+  right : 150px;
+  padding: 5px;
+  border: 2px solid orange;
+  margin-right: 10px;
+  background-color: aquamarine;
+  color: white;
+  background-color: darkgreen;
+
+
+ }
+
+ .tags li:nth-child(6){
+  position:relative;
+  display: inline;
+  top:100px;
+  right: 270px;
+  border: 2px solid orange;
+  padding: 5px;
+  background-color: aquamarine;
+  color: white;
+  background-color: darkgreen;
+ }
+  
+
+ /* .card-container {
+  position: relative;
+  width: 1300px;
+  background-color: #d8d8d8;
+  border: 2px black;
+  margin-left: 20px;
+  border-radius: 20px; 
+ }
+
+ .card-image {
+  background-color: #d8d8d8;
+  display: inline;
+  position: relative;
+  
+ }
+
+
+.card-image > img {
+  position: relative;
+  height: 400px;
+  width: 500px;
+  top :30px;
+  left: 30px;
+  border-radius: 20px;
+  
+   
+}
+
+ .card-content {
+  position: relative;
+  
+
+}   */
+
+/* .card-container{
+  background-color: #d8d8d8;
+  border: 1px black;
+  border-radius: 10%;
+  position: relative;
+}
+
+.card-image{
+  position:absolute;
+  height: 200px;
+  width: 200px;
+  margin-left:30px;
+  margin-top: 30px;
+  border-radius: 30%;
+}
