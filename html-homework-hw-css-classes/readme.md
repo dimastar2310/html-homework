@@ -29,3 +29,4 @@
 ## Good Luck! 
 
 my result 
+![alt text](https://github.com/dimastar2310/html-homework/blob/master/html-homework-hw-css-classes/second.png "Part 2-My Result").
